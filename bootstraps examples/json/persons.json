@@ -1,0 +1,7 @@
+{"persons": [
+	{"firstname":"mickey", "lastname":"mouse", "gender":"male", "email":"disney@mic.com"}, 
+	{"firstname":"mick", "lastname":"mose", "gender":"male", "email":"disney@c.com"},
+	{"firstname":"miky", "lastname":"moe", "gender":"female", "email":"ney@mi.com"},
+	{"firstname":"miey", "lastname":"ouse", "gender":"male", "email":"dney@ic.com"},
+	{"firstname":"mini", "lastname":"mouse", "gender":"female", "email":"disn@mc.com"}
+]}
