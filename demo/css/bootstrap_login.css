@@ -1,0 +1,30 @@
+body {
+    background: url(image/Tulips.jpg) no-repeat; 
+}
+.container {
+    padding-left: 5%;
+    padding-top: 5%;
+    position: static;         
+}
+.row {
+    box-shadow: 0 1px 0 #cfcfcf;
+    border-radius: 20px;
+    width: 300px;
+    padding: 10px 20px 20px 20px;
+    border: 15px solid;
+    margin: 15px;
+    background-color: #ffffff;
+    opacity: 0.5;
+    color: #000000;
+}
+.header {
+    text-align: center;
+    font-family: cursive;
+    color: #000000;
+}
+.login-form {
+    text-align: center;
+}
+a {
+    color: #003333; 
+}

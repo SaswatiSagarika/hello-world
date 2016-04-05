@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap Form</title>
+    
+        <!-- Bootstring_objectap -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/db_form.css?version=27" rel="stylesheet">
+        
+        
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        
+    </head>
+    <body class="form-body">
+        <div class="container">
+            <form action="" method="post" id="form" class="form" > 
+                <div class="wrapper">
+                    <div class="row">
+                        <div class="header"><h3>register here</h3></div>
+                        <div class="form-group">
+                          <label class="control-label " for="firstname" > FirstName:</label>
+                        <div class="">
+                            <input type="text" class="form-control" name="firstname" id="firstname" placeholder="FirstName">
+                            <div class="alert alert-info close" data-dismiss="alert" aria-label="close" id="first">
+                                <p>You Have To Write Your firstName..</p>
+                            </div>
+                        </div>  
+                          <label class="control-label " for="lastname">LastName:</label>
+                        <div class="">
+                            <input type="text" class="form-control" name="lastname" id="lastname" placeholder="LastName">
+                            <div class="alert alert-info close" data-dismiss="alert" aria-label="close" id="last">
+                                 You Have To Write Your LastName..
+                            </div>
+                        </div>
+                          <label class="control-label " for="exampleGM">Gender</label>
+                        <div class="radio ">
+                            <label class="radio-inline"><input type="radio" name="gender" value="male">Male</label>
+                            <label class="radio-inline"><input type="radio" name="gender" value="female">Female</label>
+                            <div class="alert alert-danger close" data-dismiss="alert" aria-label="close" id="pass">
+                                select your gender..
+                            </div>
+                        </div>
+                            <label class="control-label " for="Email">Email address</label>
+                        <div class="">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                            <div class="alert alert-info close" data-dismiss="alert" aria-label="close" id="mail">
+                                You Have To Write Valid Email..
+                            </div>
+                        </div>
+                          <label class="control-label " for="password">password</label>
+                        <div class="">
+                            <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+                            <div class="alert alert-danger close" data-dismiss="alert" aria-label="close" id="pass">
+                                 You Have To Write Your Password..
+                            </div>
+                        </div>
+                        <div class="">
+                            <button type="button" class="btn btn-default active" value="saved" onclick="insertForm()" >Submit</button>
+                            <br><b>back to login page..</b><a href="bootstrap_login.php">click here</a>       
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery-2.2.1.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap-table.js"></script>
+        <script src="js/db_login.js"></script>
+    </body>
+</html>

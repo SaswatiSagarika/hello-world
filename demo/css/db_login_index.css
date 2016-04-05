@@ -1,0 +1,49 @@
+.header{
+    border-radius: 20px;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid;
+    background-color: #ffffff;
+}
+h3{
+    text-align: right;
+    font-family: cursive;
+    font-style: oblique;
+    font-size: larger;
+    color: #000000;
+    
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-style: oblique;
+    color: rgb(111,222,222);
+}
+
+form{
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0 1px 0 #cfcfcf;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid;
+}
+.container{
+   
+    height: 100%;
+    width: 90%;
+    box-shadow: 0 1px 0 #cfcfcf;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    border: 5px solid rgb(011,211,119);
+    margin: 15px;
+    
+    
+}
+.wrapper{
+    height: 300px;
+     
+    background-color: #ffffff;
+    color: #000000;
+    
+}

@@ -1,0 +1,33 @@
+.container{
+    background: center;
+    box-shadow: 5px #c2c2a3;
+    border-radius:3px;
+    width: 100%;
+    background-color: #fcfcfc;
+}
+.header{
+    text-align: center;
+    color: rgb(123,123,123);
+    text-decoration: underline;
+    font-style: oblique;
+  
+}
+.form-group{
+    width:400px;
+    padding: 20px;
+    
+}
+.wrapper{
+    box-shadow: 0 1px 0 #cfcfcf;
+    border-radius: 20px;
+    width: 500px;
+   
+    border: 5px solid;
+    margin: 5px;
+    background-color: #ffffff;
+    
+}
+.alert{
+    font-size: medium;
+    font-family: cursive;
+}
